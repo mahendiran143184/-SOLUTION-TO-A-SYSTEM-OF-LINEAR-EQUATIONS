@@ -17,7 +17,7 @@ End the program
 #Program to find the solution for the given linear equations.
 #Developed by:M.MAHENDIRAN
 #RegisterNumber:212225230165
-
+```
 import os
 os.environ["OPENBLAS_NUM_THREADS"]="1"
 import numpy as np
@@ -25,7 +25,7 @@ A=[[1,3,],[2,5]]
 B=np.array([5,-3])
 C=np.linalg.solve(A,B)
 print(C)
-
+```
 ## Output:
 <img width="619" height="163" alt="image" src="https://github.com/user-attachments/assets/ebaa27f9-aa57-41f6-9bca-71e13839acd1" />
 
